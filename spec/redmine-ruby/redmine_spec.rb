@@ -31,11 +31,4 @@ describe Redmine do
   end
 
 
-  context "resources" do
-
-    
-
-  end
-
-
 end

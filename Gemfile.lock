@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    redmine-ruby (0.2.7)
+    redmine-ruby (0.2.8)
       faraday_middleware
       her
       multi_xml
