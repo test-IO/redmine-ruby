@@ -2,8 +2,8 @@ module Redmine
   class Base
     include Her::Model
 
-    include_root_in_json true
-    parse_root_in_json true, format: :active_model_serializers
+    include_root_in_json false
+    parse_root_in_json false, format: :active_model_serializers
 
     def self.element_name(name)
       @_her_root_element = name
